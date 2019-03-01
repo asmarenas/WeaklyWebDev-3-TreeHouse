@@ -29,29 +29,29 @@
         <nav class="navigation-main">
           <ul class="heading-text navigation__list">
             <li class="navigation__item">
-              <a class="navigation__link">Home</a>
+              <a href="#home" class="navigation__link">Home</a>
             </li>
             <li class="navigation__item">
-              <a class="navigation__link">About</a>
+              <a href="#about" class="navigation__link">About</a>
             </li>
             <li class="navigation__item">
-              <a class="navigation__link">Blog</a>
+              <a href="#blog" class="navigation__link">Blog</a>
             </li>
             <li class="navigation__item">
-              <a class="navigation__link">Portfolio</a>
+              <a href="#portfolio" class="navigation__link">Portfolio</a>
             </li>
             <li class="navigation__item">
-              <a class="navigation__link">Contact</a>
+              <a href="#contact" class="navigation__link">Contact</a>
             </li>
           </ul>
         </nav>
-        <div class="mobile-nav-btn"></div>
       </div>
+      <div class="mobile-nav-btn"></div>
     </header>
 
     <!-- Home section -->
-
-    <section class="section home">
+    <div class="anchor-bar" id="home"></div>
+    <section  class="section home">
       <div class="home__overlay">
         <h1 class="heading-text home__title text-light">
           Creative Digital
@@ -61,13 +61,14 @@
         <p class="home__sub-title text-lighter">
           Proin iaculis purus consequat sem cure.
         </p>
-        <button href="#" class="heading-text btn">View Portfolio</button>
+        <button href="#portfolio" class="heading-text btn">View Portfolio</button>
       </div>
     </section>
 
     <!-- Services section -->
-
-    <section class="section services">
+    
+    <div class="anchor-bar" id="about"></div>
+    <section  class="section services">
       <div class="container">
         <h2 class="heading-text section-title">Professional Services</h2>
         <p class="section-subtitle">
@@ -128,7 +129,8 @@
 
     <!-- Blog section -->
 
-    <section class="section blog">
+    <div class="anchor-bar" id="blog"></div>
+    <section  class="section blog">
       <div class="blog__container">
         <div class="blog__overlay">
           <h2 class="heading-text section-title text-light">
@@ -162,8 +164,9 @@
     </section>
 
     <!-- Projects section -->
-
-    <section class="section projects">
+    
+    <div class="anchor-bar" id="portfolio"></div>
+    <section  class="section projects">
       <h2 class="heading-text section-title">latest project</h2>
       <p class="section-subtitle">Proin iaculis purus consequat sem cure</p>
       <div class="projects__container">
@@ -223,7 +226,7 @@
         <div class="projects__container--background"></div>
       </div>
     </section>
-
+ 
     <!-- Values section -->
 
     <section class="section values">
@@ -333,8 +336,9 @@
     </section>
 
     <!-- Contact section -->
-
-    <section class="contact section">
+    
+    <div class="anchor-bar" id="contact"></div>
+    <section  class="contact section">
       <div class="contact__container--top">
         <h2 class="heading-text text-light contact__title">
           ready to talk about your next project?
@@ -472,5 +476,6 @@
         </ul>
       </div>
     </footer>
+    <script src="./js/main.js"></script>
   </body>
 </html>
