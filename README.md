@@ -10,4 +10,4 @@ Pixel Perfect PSD to HTML exercise
 
 
 
-resources: [freebiesxpress.com](http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/)
+Resources: [freebiesxpress.com](http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/)
