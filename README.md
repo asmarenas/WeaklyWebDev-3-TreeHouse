@@ -1,7 +1,7 @@
 # TreeHouse 
 Pixel Perfect PSD to HTML exercise
 
-[Live Preview]()
+[Live Preview](https://mariusjagminas.github.io/TreeHouse-PSD-to-HTML/)
 
 ### Build with:
 * HTML5
