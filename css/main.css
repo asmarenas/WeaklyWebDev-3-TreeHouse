@@ -37,12 +37,6 @@ a {
   text-align: center;
 }
 
-.anchor-bar {
-  width: 100%;
-  height: 113px;
-  margin-top: -113px;
-}
-
 .section {
   width: 100%;
 }
@@ -84,8 +78,9 @@ a {
 }
 
 .btn {
+  display: inline-block;
   color: #ffffff;
-  padding: 0 37px;
+  padding: 22px 37px;
   height: 60px;
   background-color: #7cc576;
   border: none;
@@ -150,10 +145,6 @@ a {
   justify-content: space-evenly;
 }
 
-.navigation__item {
-  margin: 10px;
-}
-
 .navigation__link {
   font-size: 14px;
   font-weight: 600;
@@ -184,7 +175,7 @@ a {
     top: 80px;
     left: 0;
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - 80px) ;
     max-height: 380px;
     background: #ffffff;
     flex-direction: column;
@@ -749,6 +740,7 @@ a {
   padding-top: 56px;
 }
 
+
 .address__item,
 .posts__item,
 .tweets__item {
@@ -852,7 +844,7 @@ a {
   font-family: Montserrat, sans-serif;
   font-weight: 600;
   font-size: 14px;
-  margin-right: 110px;
+  margin-right: 115px;
 }
 
 .social-media__item {
