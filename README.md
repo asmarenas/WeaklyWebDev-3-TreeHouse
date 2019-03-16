@@ -3,7 +3,7 @@ Pixel Perfect PSD to HTML exercise
 
 [Live Preview](https://mariusjagminas.github.io/TreeHouse/)
 
-### Build with:
+### Built with:
 * HTML5
 * CSS3
 * Vanilla JavaScript
